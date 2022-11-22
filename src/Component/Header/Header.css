@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18rem;
+
+}
+.logo{
+    width: 20rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.Header-menu{
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    padding-top: 1.5rem;
+
+}
+
+.Header-menu>li:hover{
+    cursor: pointer;
+    color:orange;
+    cursor: pointer;
+}

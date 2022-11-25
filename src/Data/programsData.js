@@ -51,6 +51,6 @@ export const programsData = [
     },
   ];
   
-  
+  export default programsData;
   
   

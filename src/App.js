@@ -3,6 +3,8 @@ import Hero from './Component/home/Home'
 import Program from './Component/programs/Programs'
 import Reasons from './Component/reasons/Reasons'
 import Plans from './Component/plans/Plans'
+import Testimonials from './assets/testimonial/Testimonial'
+import Join from './Component/join/Join'
 export default function App(){
 
   return(
@@ -12,6 +14,8 @@ export default function App(){
     <Program />
     <Reasons />
     <Plans />
+    <Testimonials />
+    <Join />
   </div>
 
     </>

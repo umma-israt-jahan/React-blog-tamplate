@@ -21,7 +21,7 @@ export default function Plans(){
                         <span>$ {plan.price}</span>
                         <div className="features">
                             {plan.features.map((features,i)=>(
-                                <div className="features">
+                                <div className="feature">
                                     <img src={whiteTick} alt=""/>
                                     <span key={i}>{features}</span>
                                 </div>
